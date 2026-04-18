@@ -1,0 +1,8 @@
+=== Metrics Summary ===
+experiment: yolo11n from scratch
+model: yolo11n.yaml (pretrained=False)
+mAP50: 0.8951
+mAP50-95: 0.4453
+precision: 0.9347
+recall: 0.7957
+f1: 0.8596

@@ -1,0 +1,8 @@
+=== Metrics Summary ===
+model: yolo11n.pt
+experiment: H3_imgsz832
+mAP50: 0.9302
+mAP50-95: 0.5841
+precision: 0.9401
+recall: 0.8925
+f1: 0.9157

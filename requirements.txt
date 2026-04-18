@@ -1,0 +1,23 @@
+# Car Plate Detection — зависимости
+# Python >= 3.9
+
+# Deep Learning / Object Detection
+ultralytics>=8.3.0       # YOLOv11 (yolo11n.pt, yolo11s.pt)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Classical ML (для HOG+SVM детектора)
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Data / Utils
+numpy>=1.24.0
+Pillow>=10.0.0
+pyyaml>=6.0
+tqdm>=4.65.0
+matplotlib>=3.7.0       # Для графиков ultralytics
+pandas>=2.0.0           # Для логов ultralytics
+seaborn>=0.12.0         # Для confusion matrix
